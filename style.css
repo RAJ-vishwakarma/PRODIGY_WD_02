@@ -6,24 +6,29 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #ffffff;
         }
 
         .container {
-            background-color: #fff;
+            background-color: #575757;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            width: 400px;
+            width: 700px;
             align-items: center;
             perspective: 1000px;
             transition: transform 0.5s;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
         }
 
         .stopwatch {
             font-size: 2em;
             text-align: center;
             padding: 20px;
+            color: azure;
         }
 
         #controls {
@@ -39,7 +44,7 @@
             cursor: pointer;
             outline: none;
             border: none;
-            background-color: #007bff;
+            background-color: #000000;
             color: white;
             border-radius: 5px;
         }
@@ -50,8 +55,3 @@
             margin-top: 20px;
             padding-bottom: 20px;
         }
-
-        .flipped {
-            transform: rotateY(360deg);
-        }
-    
